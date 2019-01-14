@@ -1,0 +1,10 @@
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\bin\Debug\16.slide.puzzle.game.exe.config
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\bin\Debug\16.slide.puzzle.game.exe
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\bin\Debug\16.slide.puzzle.game.pdb
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\16.slide.puzzle.game.csprojAssemblyReference.cache
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\_16.slide.puzzle.game.Form1.resources
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\_16.slide.puzzle.game.Properties.Resources.resources
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\16.slide.puzzle.game.csproj.GenerateResource.cache
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\16.slide.puzzle.game.csproj.CoreCompileInputs.cache
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\16.slide.puzzle.game.exe
+C:\Users\disommac19\source\repos\16.slide.puzzle.game\16.slide.puzzle.game\obj\Debug\16.slide.puzzle.game.pdb

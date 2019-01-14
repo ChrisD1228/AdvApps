@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E5F6D2C-02C1-400C-BB68-3F57FE4E53D5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_16.slide.puzzle.game</RootNamespace>
+    <AssemblyName>16.slide.puzzle.game</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_021.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_091.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-73539607-612x612_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jay-crtich-did-it-again-fashion-interview-%281%29_051.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blankslide.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
