@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConsoleApp4.exe" version="1.0.0.0" publicKeyToken="6c57e64ee13a595a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConsoleApp4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConsoleApp4.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConsoleApp4.exe" size="6640">
+      <assemblyIdentity name="ConsoleApp4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eIDdGn2oZw6d+3L5JJjPlzvAwZp3MTXmTuw88AIaEtU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConsoleApp4.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XAVIERHS\disommac19" issuerKeyHash="a99a76d5a9832976f969f868afeefb46e3e4db1b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L2ixF3CJs20jftz/zejO7fj0MMuJP+OquZb0nA/LTs4=</DigestValue></Reference></SignedInfo><SignatureValue>NCrbjU1vLiZoozMfL2m+bi6qJDkOFGrzGzRDgNZ35d1OYVOtK7KDc/BBSXvD7Pw1N3UZmQXxjFpFqwG0D+VB9DAbjWlEOJRI2yWhhIFni1T7nkah5TKV/Y+apyYEH05LQ9Ng6k6xLYGDsxfqbE3WT9bMS5xqMFJKSD/lRvkgIn4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m9JiJ3KzFOqOGBPDiKwfvHBZe2NyQ6ZicHYiYuKoztzlKXIJ5AEH6UEVhGOfegaMnovUqgGZnK7LIYy1GZvFgLVtavik9ITzqHYEh3d1U8pi+Jsgj16f++RqXbDZar3y4vRE84lZX0tLUJVZEmX+EyUYb3h48noNfbw3CKlRpBM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ce4ecb0f9cf496b9aae33f89cb30f4f8edcee8cdffdc7e236db3897017b1682f" Description="" Url=""><as:assemblyIdentity name="ConsoleApp4.exe" version="1.0.0.0" publicKeyToken="6c57e64ee13a595a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XAVIERHS\disommac19</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>mgKoMsSSH8zKZr+8P8ak6Y8OEyukHAOKRcaGZd8yNhY=</DigestValue></Reference></SignedInfo><SignatureValue>HYuNRxqNrTXpngXROWg9v+6+tAEfxc2TkZagcZcXBMUuMyQUrxp7s9oJfTHoNBWI/NpOFz5Fr3KBP0HGD7f++oHghdbrHfedO1RcTJ+Mx+9KqYlQdweqstVyMk/utzbOfIK2tSOdP6o2wcKDI0qNzD4xtRAR8KgCHQDCnbo1m/I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m9JiJ3KzFOqOGBPDiKwfvHBZe2NyQ6ZicHYiYuKoztzlKXIJ5AEH6UEVhGOfegaMnovUqgGZnK7LIYy1GZvFgLVtavik9ITzqHYEh3d1U8pi+Jsgj16f++RqXbDZar3y4vRE84lZX0tLUJVZEmX+EyUYb3h48noNfbw3CKlRpBM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQRUrmytwPAIpPGVUOeMr4ZjANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAWABBAFYASQBFAFIASABTAFwAZABpAHMAbwBtAG0AYQBjADEAOTAeFw0xOTAxMTExNjIyMTBaFw0yMDAxMTEyMjIyMTBaMDExLzAtBgNVBAMeJgBYAEEAVgBJAEUAUgBIAFMAXABkAGkAcwBvAG0AbQBhAGMAMQA5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCb0mIncrMU6o4YE8OIrB+8cFl7Y3JDpmJwdiJi4qjO3OUpcgnkAQfpQRWEY596Boyei9SqAZmcrsshjLUZm8WAtW1q+KT0hPOodgSHd3VTymL4myCPXp/75GpdsNlqvfLi9ETziVlfS0tQlVkSZf4TJRhveHjyeg19vDcIqVGkEwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGLBar5+AufakBRxA32vvX3sTcriCT29cuBjcHsSjR6ZpVxvFi3N7F9VQncPES1LKRu0b2p6b7NDe5NJujDTWomMQdBjX9010NKnswmVk9sasfRi0ugJyqMTFfDmgQ53WN7a5g9mA+4XAKtz0h+RUdpDwf/lDGV2qdsLpgujqRbL</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
